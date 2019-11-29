@@ -1,5 +1,7 @@
 {
   "name": "native-tutorial",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }
