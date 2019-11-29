@@ -16,6 +16,8 @@ export class Tab1Page {
           id: 1,
           title: 'ようこそ',
           body: 'Ionic Frameworkへ',
+          schedule: { at: new Date(Date.now() + 1000 * 5) },
+          sound: 'normail',
         },
       ],
     });
