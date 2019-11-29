@@ -303,6 +303,11 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@capacitor/android@^1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@capacitor/android/-/android-1.3.0.tgz#46e99e7bdd34e8527ea8b23330f66417389368f6"
+  integrity sha512-b+x15Sr4hOHUe45CaS2Xh6yc0zTjamo3eF0Wpra/rsh6gOwoI4bBRqwvKLeWsQRK1zakClfoFUSgpRWCAPASGw==
+
 "@capacitor/cli@1.3.0":
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/@capacitor/cli/-/cli-1.3.0.tgz#24d071f4792a9c74b356b7d8981d3672d4a960be"
@@ -320,7 +325,7 @@
     which "^1.3.0"
     xml2js "^0.4.19"
 
-"@capacitor/core@1.3.0":
+"@capacitor/core@1.3.0", "@capacitor/core@latest":
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/@capacitor/core/-/core-1.3.0.tgz#d1a319f14888f29c87dadaeea36b2949365344a6"
   integrity sha512-cVllg+OaYAPCsWOOOuMDqIk0tqjTH1QEBNgTKhAwLJraYy0w5CziUW5gtcmKXTRqD3dzUlHjx1emCKXrg0DACg==
@@ -383,6 +388,13 @@
     rxjs "6.4.0"
     tree-kill "1.2.1"
     webpack-sources "1.3.0"
+
+"@rdlabo/capacitor-admob@^0.1.5":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@rdlabo/capacitor-admob/-/capacitor-admob-0.1.5.tgz#bc370f13229b9c2a10816547b206ff53e4945b6e"
+  integrity sha512-70h9w0/aeTNiEiSiPFp/z4XmeSkiObYDIekd3mk57M6K0LtXsHHSIRBuJSk/5WtERe7obB8xVXohvjWm/gOb4A==
+  dependencies:
+    "@capacitor/core" latest
 
 "@schematics/angular@8.1.3":
   version "8.1.3"
