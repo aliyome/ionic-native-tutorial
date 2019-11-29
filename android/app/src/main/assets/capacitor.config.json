@@ -4,5 +4,9 @@
   "bundledWebRuntime": false,
   "npmClient": "yarn",
   "webDir": "www",
-  "cordova": {}
+  "cordova": {},
+  "windowsAndroidStudioPath": "C:\\Users\\aliyome\\AppData\\Local\\JetBrains\\Toolbox\\apps\\AndroidStudio\\ch-0\\191.5977832\\bin\\studio64.exe",
+  "server": {
+    "url": "http://192.168.11.2:8100"
+  }
 }
