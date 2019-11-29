@@ -6,4 +6,13 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+  <div class="ion-padding">
+    <ion-button (click)="displayAdMob()" *ngIf="!isAdsense" color="primary">
+      広告を出す
+    </ion-button>
+    <ion-button (click)="hideAdMob()" *ngIf="isAdsense" color="danger">
+      広告を隠す
+    </ion-button>
+  </div>
+</ion-content>
