@@ -1,0 +1,2 @@
+# resources
+Cordova/Capacitorで利用するresourcesファイルです
