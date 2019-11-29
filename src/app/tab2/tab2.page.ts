@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { AdOptions, AdSize, AdPosition } from '@rdlabo/capacitor-admob';
 import { Plugins } from '@capacitor/core';
+import { Badge } from '@ionic-native/badge/ngx';
 
 @Component({
   selector: 'app-tab2',
@@ -9,7 +10,15 @@ import { Plugins } from '@capacitor/core';
 })
 export class Tab2Page {
   isAdsense = false;
-  constructor() {}
+  constructor(private readonly badge: Badge) {}
+
+  upBadge() {
+    this.badge.increase(1);
+  }
+
+  clearBadge() {
+    this.badge.clear();
+  }
 
   displayAdMob() {
     const options: AdOptions = {

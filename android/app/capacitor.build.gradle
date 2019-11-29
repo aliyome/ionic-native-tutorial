@@ -12,7 +12,7 @@ dependencies {
     implementation project(':rdlabo-capacitor-admob')
 
 }
-
+apply from: "../../node_modules/cordova-plugin-badge/src/android/badge.gradle"
 
 if (hasProperty('postBuildExtras')) {
   postBuildExtras()
